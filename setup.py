@@ -1,4 +1,4 @@
-"""This setup script packages pyblish-photoshop."""
+"""This setup script packages pyblish-3dsmax."""
 
 # Import built-in modules
 import importlib
@@ -25,7 +25,6 @@ classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Utilities"
 ]
 
 setup(
@@ -45,8 +44,5 @@ setup(
         "qt.py>=1.3",
         "pyblish_base>=1.2.1",
         "pyblish_lite>=0.8.0",
-    ],
-    entry_points={
-        "console_scripts": ["pyblish-3dsmax = pyblish_3dsmax.cli:cli"]
-    },
+    ]
 )
