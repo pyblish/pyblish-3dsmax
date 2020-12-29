@@ -1,4 +1,3 @@
-
 language: python
 
 python:
@@ -12,7 +11,7 @@ deploy:
   user: mottosso
   distributions: "sdist bdist_wheel"
   password:
-    secure: fwXIOGKn38gJFNkzlpvholQBhSBzNorOnMvs04JT3+Fdq6ys2TiUV6tlXHDwo6DkMY++USI19oD9NWlvg8gQaRJq4g2V/taazn8XDv1XnyKLzb6DnAT1ALilJtbIgotH/0QNOvkDP40a8UDwbelE0aR4AptNO1Ts7n1eERygENA=
+    secure: AL+tApxx53LfJvfrjIlFZp1UcZhRnzGM7mpvYU8zMqE8JNoFJMM6oeNy6o85xG1O+8Xmp5QsNh0xUDht+6RhGS+qW6b5lIo4TJtYZTy0CJy5ebOaEHow5v2tAZeRj7+nnqqHH8ecUtQ3lPA8DyR6Yi1uPOVW/lyHBOg9MhoaqeM=
   on:
     tags: true
     repo: pyblish/pyblish-3dsmax
